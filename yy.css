@@ -1,0 +1,48 @@
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    video.bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 40px;
+      border-radius: 10px;
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      font-size: 2em;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    h3{
+        color: blue;
+         font-size: 30px;
+        font-family:courier;
+    }
+
+    h1{
+        color: rgb(2, 2, 128);
+         font-size: 40px;
+        font-family:courier;
+    }
